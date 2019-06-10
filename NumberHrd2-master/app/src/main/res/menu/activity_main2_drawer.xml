@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="游戏简介"
+            android:onClick="a_game_introduce"/>
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="通关策略"
+            android:onClick="a_game_strategy"/>
+
+        <item
+            android:id="@+id/nav_rank"
+            android:icon="@drawable/ic_action_rank"
+            android:title="个人最佳成绩"
+            android:onClick="a_game_rank"/>
+
+    </group>
+
+
+
+</menu>
